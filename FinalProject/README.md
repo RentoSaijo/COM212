@@ -63,7 +63,7 @@ java SocialNetworkApp
 1. Post to Timeline: Entered text must adhere to above conditions and mustn't include `","`
 2. Add Event: Entered texts must adhere to above conditions and mustn't include `","` nor data later than the current date
 3. View Friends: List friends by email
-4. Add/Remove Friend: Toggle either by entering valid email; must adhere to above conditions
+4. Add/Remove Friend: Toggle either by entering valid email; must adhere to above conditions and mustn't include `","`
 5. Log OUt: Save session information to `mysocialprofile.txt`
 
 ## Data Storage (mysocialprofile.txt)
