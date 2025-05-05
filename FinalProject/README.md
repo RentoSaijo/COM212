@@ -32,27 +32,27 @@ java SocialNetworkApp
 ## Main Menu (See Example .txt File for Clarification)
 1. Create Profile
    1. Full Name must satisfy the following:
-    i. String of length > 0
-   ii. Two words (space in between)
-  b. Email must satisfy the following:
-    i. String that follows the basic regex (user@domain.tld)
-  c. Password must satisfy the following:
-    i. String of length >= 8
-  d. Class Year must satisfy the following:
-    i. Integer +/- 100 years from today
-3. Load Profile -> Reads `mysocialprofile.txt` if present.
-  a. All the above conditions must be met, plus:
-  b. Events must satisfy the following:
-    i. Each event surrounded by `"` and separated by `,`
-   ii. Each event contains String with 6 space-separated parts
-  iii. First 5 parts resemble ``MM dd yyyy HH mm``
-  c. Timeline must satisfy the following:
-    i. Each post surrounded by `"` and separated by `,`
-   ii. Each post is String
-  d. Friends must satisfy the following:
-    i. Each friend surrounded by `"` and separated by `,`
-   ii. Each friend contains String different from user's email
-4. Quit App
+      1. String of length > 0
+      2. Two words (space in between)
+   2. Email must satisfy the following:
+      1. String that follows the basic regex (user@domain.tld)
+   3. Password must satisfy the following:
+      1. String of length >= 8
+   4. Class Year must satisfy the following:
+      1. Integer +/- 100 years from today
+2. Load Profile -> Reads `mysocialprofile.txt` if present.
+   1. All the above conditions must be met, plus:
+   2. Events must satisfy the following:
+      1. Each event surrounded by `"` and separated by `,`
+      2. Each event contains String with 6 space-separated parts
+      3. First 5 parts resemble ``MM dd yyyy HH mm``
+   3. Timeline must satisfy the following:
+      1. Each post surrounded by `"` and separated by `,`
+      2. Each post is String
+   4. Friends must satisfy the following:
+      1. Each friend surrounded by `"` and separated by `,`
+      2. Each friend contains String different from user's email
+3. Quit App
 
 ## Home Screen
 - Upcoming Events: Next Date-ordered Event
@@ -77,3 +77,4 @@ java SocialNetworkApp
 
 ## Limitations
 - Since this was worked on by multiple people, there are inconsistencies in coding styles and commenting styles, but we tried our best to make the output look as nice as possible altogether.
+- We could have definitely been more specific for each type of user error (input errors), but we thought it would be very cluttered to do that for each type of error as opposed to more generic ones such as "Invalid friends. Fix `mysocialprofile.txt`." Although, looking back at it, it may have helped the user experience a little bit.
