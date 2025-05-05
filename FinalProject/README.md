@@ -18,7 +18,9 @@ Stores personal info, events (heap-ordered), timeline posts, and friends to `mys
 ## Compilation
 ```bash
 javac SNode.java SinglyLinkedList.java Event.java ArrayPriorityQueue.java MySocialProfile.java SocialNetworkApp.java
-# or simply:
+```
+Or, simply:
+```bash
 javac *.java
 ```
 
