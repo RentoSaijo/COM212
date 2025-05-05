@@ -37,61 +37,172 @@ You can comprehensively test the application by following the sequence below. So
 ```bash
 2
 ```
+```bash
 6 #BAD
+```
+```bash
 1
+```
+```bash
 Hello"," #BAD
+```
+```bash
 Hello, world.
+```
+```bash
 2
+```
+```bash
 July 4th, 2025 10:00 #BAD
+```
+```bash
 7 4 2025 10 00 #BAD
+```
+```bash
 07 04 2024 10 00 #BAD
+```
+```bash
 07 04 2025 10 00
+```
+```bash
 Independence","Day Party #BAD
+```
+```bash
 Independence Day Party
+```
+```bash
 3
+```
+```bash
 4
+```
+```bash
 rsaijo@conncoll.edu #BAD
+```
+```bash
 wtarimoconncoll.edu #BAD
+```
+```bash
 wtarimo@conncoll.edu
+```
+```bash
 4
+```
+```bash
 ateryek@conncoll.edu
+```
+```bash
 3
+```
+```bash
 5
+```
+```bash
 2
+```
+```bash
 5
+```
+```bash
 1
+```
+```bash
 Adam #BAD
+```
+```bash
 Adam Teryek
+```
+```bash
 ateryek.edu #BAD
+```
+```bash
 ateryek@conncoll #BAD
+```
+```bash
 ateryek@conncoll.edu
+```
+```bash
 pass123 #BAD
+```
+```bash
 pass1234
+```
+```bash
 1800 #BAD
+```
+```bash
 2200 #BAD
+```
+```bash
 Two-thousand Twenty-six #BAD
+```
+```bash
 2026
+```
+```bash
 1
+```
+```bash
 Wooo, I just created my account!
+```
+```bash
 1
+```
+```bash
 Wait, how do I update my profile picture?
+```
+```bash
 1
+```
+```bash
 Oh, the devs haven't implemented that yet :(
+```
+```bash
 2
+```
+```bash
 08 13 2025 10 00
-Back to School
+```
+```bash
+Back 2 School
+```
+```bash
 2
+```
+```bash
 05 09 2025 16 00
+```
+```bash
 Last Day of Class
+```
+```bash
 3
+```
+```bash
 4
+```
+```bash
 rsaijo@conncoll.edu
+```
+```bash
 4
+```
+```bash
 hmerritt@conncoll.edu
+```
+```bash
 3
+```
+```bash
 5
+```
+```bash
 2
+```
+```bash
 5
+```
+```bash
 3
 ```
 
