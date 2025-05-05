@@ -77,4 +77,4 @@ java SocialNetworkApp
 
 ## Limitations
 - Since this was worked on by multiple people, there are inconsistencies in coding styles and commenting styles, but we tried our best to make the output look as nice as possible altogether.
-- We could have definitely been more specific for each type of user error (input errors), but we thought it would be very cluttered to do that for each type of error as opposed to more generic ones such as "Invalid friends. Fix `mysocialprofile.txt`." Although, looking back at it, it may have helped the user experience a little bit.
+- We could have definitely been more specific for each type of user error (input errors), but we thought it would be very cluttered to do that for each type of error as opposed to more generic ones such as "Invalid friends. Fix `mysocialprofile.txt`." Although, looking back at it, it may have helped the user experience a bit.
