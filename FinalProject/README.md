@@ -40,7 +40,7 @@ java SocialNetworkApp
       1. String of length >= 8
    4. Class Year must satisfy the following:
       1. Integer +/- 100 years from today
-2. Load Profile -> Reads `mysocialprofile.txt` if present.
+2. Load Profile: Reads `mysocialprofile.txt`, if present
    1. All the above conditions must be met, plus:
    2. Events must satisfy the following:
       1. Each event surrounded by `"` and separated by `,`
