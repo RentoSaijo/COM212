@@ -33,7 +33,10 @@ java SocialNetworkApp
 You can comprehensively test the application by following the sequence below. Some are intentinoally "bad" inputs such that you can see how it would handle them; I will place a `#BAD` next to each of them:
 ```bash
 4 #BAD
+```
+```bash
 2
+```
 6 #BAD
 1
 Hello"," #BAD
