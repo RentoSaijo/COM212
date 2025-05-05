@@ -58,8 +58,7 @@ public class SocialNetworkApp {
                     // attempt to load an existing profile from file
                     try {
                         profile = MySocialProfile.loadFromFile();
-                    } catch (IllegalArgumentException | DateTimeParseException |
-                             ArrayIndexOutOfBoundsException | NullPointerException e) {
+                    } catch (IllegalArgumentException | DateTimeParseException e) {
                         System.out.println("Error loading profile.");
                     }
                     break;
@@ -225,8 +224,7 @@ public class SocialNetworkApp {
                     while (true) {
                         System.out.print("Enter your friend's email: ");
                         String email = sc.nextLine();
-                        if (email.matches("^[\\w.-]+@[\\w.-]+\\.\\w+$")
-                                && !email.equals(profile.getEmail())) {
+                        if (email.matches("^[\\w.-]+@[\\w.-]+\\.\\w+$") && !email.equals(profile.getEmail()) && !email.contains("\",\"")) {
                             profile.addOrRemoveFriend(email);
                             break;
                         }
