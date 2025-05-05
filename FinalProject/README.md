@@ -31,7 +31,7 @@ java SocialNetworkApp
 
 ## Main Menu (See Example .txt File for Clarification)
 1. Create Profile
-  a. Full Name must satisfy the following:
+   1. Full Name must satisfy the following:
     i. String of length > 0
    ii. Two words (space in between)
   b. Email must satisfy the following:
@@ -40,7 +40,7 @@ java SocialNetworkApp
     i. String of length >= 8
   d. Class Year must satisfy the following:
     i. Integer +/- 100 years from today
-2. Load Profile -> Reads `mysocialprofile.txt` if present.
+3. Load Profile -> Reads `mysocialprofile.txt` if present.
   a. All the above conditions must be met, plus:
   b. Events must satisfy the following:
     i. Each event surrounded by `"` and separated by `,`
@@ -52,7 +52,7 @@ java SocialNetworkApp
   d. Friends must satisfy the following:
     i. Each friend surrounded by `"` and separated by `,`
    ii. Each friend contains String different from user's email
-3. Quit App
+4. Quit App
 
 ## Home Screen
 - Upcoming Events: Next Date-ordered Event
