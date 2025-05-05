@@ -30,7 +30,7 @@ java SocialNetworkApp
 ```
 
 ## Testing
-You can comprehensively test the application by following the sequence below. Some are intentinoally "bad" inputs such that you can see how it would handle them; I will place a "#BAD" next to each of them:
+You can comprehensively test the application by following the sequence below. Some are intentinoally "bad" inputs such that you can see how it would handle them; I will place a `#BAD` next to each of them:
 ```bash
 4 #BAD
 2
@@ -38,6 +38,58 @@ You can comprehensively test the application by following the sequence below. So
 1
 Hello"," #BAD
 Hello, world.
+2
+July 4th, 2025 10:00 #BAD
+7 4 2025 10 00 #BAD
+07 04 2024 10 00 #BAD
+07 04 2025 10 00
+Independence","Day Party #BAD
+Independence Day Party
+3
+4
+rsaijo@conncoll.edu #BAD
+wtarimoconncoll.edu #BAD
+wtarimo@conncoll.edu
+4
+ateryek@conncoll.edu
+3
+5
+2
+5
+1
+Adam #BAD
+Adam Teryek
+ateryek.edu #BAD
+ateryek@conncoll #BAD
+ateryek@conncoll.edu
+pass123 #BAD
+pass1234
+1800 #BAD
+2200 #BAD
+Two-thousand Twenty-six #BAD
+2026
+1
+Wooo, I just created my account!
+1
+Wait, how do I update my profile picture?
+1
+Oh, the devs haven't implemented that yet :(
+2
+08 13 2025 10 00
+Back to School
+2
+05 09 2025 16 00
+Last Day of Class
+3
+4
+rsaijo@conncoll.edu
+4
+hmerritt@conncoll.edu
+3
+5
+2
+5
+3
 ```
 
 ## Main Menu (See Example .txt File for Clarification)
