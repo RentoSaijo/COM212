@@ -1,4 +1,4 @@
-# MySocialProfile Console Application
+# SocialNetworkApp Console Application
 
 A simple console-based social networking profile manager for a single user.  
 Stores personal info, events (heap-ordered), timeline posts, and friends to `mysocialprofile.txt`.
