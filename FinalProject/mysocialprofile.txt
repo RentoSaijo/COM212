@@ -2,6 +2,6 @@ Rento Saijo
 rsaijo@conncoll.edu
 password1234
 2028
-"05 27 2025 00 00 Rento's Birthday","02 22 2026 00 00 Adam's Birthday","03 17 2026 00 00 Hannah's Birthday"
+"05 27 2025 00 00 Rento's Birthday","02 22 2026 00 00 Adam's Birthday","03 17 2026 00 00 Hannah's Birthday","05 27 2006 00 00 Rento was born."
 "Okay, now, we're actually done!","No, we have to write comments...","Yay, we're done!"
 "ateryek@conncoll.edu","hmerritt@conncoll.edu"
